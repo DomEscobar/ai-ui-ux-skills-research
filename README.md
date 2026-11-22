@@ -6,10 +6,23 @@
 Für die Umsetzung den vorhandenen Frontend-Workflow verwenden; `mblode/ui-design` ist eine Option, wenn der Stack passt.[2]
 Für Website-Art-Direction ist Taste nützlich, aber kein Ersatz für Produkt-UX.[7]
 
-- [Recherche: Kandidaten, Grenzen, Forschungsstand](RESEARCH.md)
+## Eigenes Skill-Bundle
+
+[`product-ux-bundle`](skills/product-ux-bundle/SKILL.md) verbindet Produktentscheidung, Umsetzung, Browser-Abnahme und bedarfsweise Medienpsychologie. Der Ordner ist eigenständig; die Recherche muss für Routineaufgaben nicht mitgeladen werden.
+
+- **A ·** [GitHub-Vergleich: Was wir übernehmen und weglassen](docs/repo-sweep.md)
+- **B ·** [Webrecherche: UX-Praxis und Standards](docs/web-practice.md)
+- **C ·** [Medienpsychologie: Medienwandel, Aufmerksamkeit, KI-Vertrauen](docs/media-psychology.md)
+- [Erste Recherche und Shortlist](RESEARCH.md)
 - [Pilot: Ablauf, Prüfkriterien und Vergleich mit/ohne Skill](PILOT.md)
 
-Das ist eine quellenbasierte Shortlist, kein Leistungsvergleich. Es wurden keine Skills installiert oder gegeneinander ausgeführt. Drittanbieter-Skills sind verlinkt, nicht kopiert.
+**Status:** eigener Skill-Entwurf, kein Wirksamkeitsnachweis. Drittanbieter-Skills sind verlinkt und nicht kopiert. Keine Fremdskripte erforderlich.
+
+## Kurz installieren (Hermes)
+
+Den vollständigen Ordner `skills/product-ux-bundle` in das `skills/`-Verzeichnis des aktiven Hermes-Profils kopieren. Die drei lokalen Referenzen gehören dazu. Mit `hermes skills list` prüfen, dass `product-ux-bundle` erkannt wird. In einer neuen Sitzung kann der Skill explizit mit `hermes chat --skills product-ux-bundle` geladen werden. Es braucht keine Drittanbieter-Plugins oder Paketinstallationen.
+
+Beispielauftrag: „Entwirf den Meldeablauf für die nächste Wochenliga. Vergleiche zwei Interaktionsvarianten und definiere, woran ein Spieler eine bestätigte Meldung erkennt. Noch nichts bauen.“
 
 ## Sources
 

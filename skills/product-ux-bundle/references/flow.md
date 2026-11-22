@@ -1,0 +1,9 @@
+# Design the task before the screen
+
+- Start from a realistic user task: actor, known information, starting condition, action and outcome. Use a current screenshot, support report, actual notes, or observed UI where given. Tag assumptions separately. Express success in the user's words.
+- Inventory current views and transitions before adding routes. Classify the primary job: monitor, act, compare, configure, explore or learn. Reuse a view when context is shared; split when it removes conflicting tasks or genuinely reduces complexity. Compare the cost of extra navigation with the cost of complexity in one view.
+- Write a compact view contract: **entry; purpose; primary action; success; recovery; preserved state; evidence**. For each relevant reachable state (pending, empty, partial, success, failure, no permission, locked, stale), specify trigger, what is visible, allowed next action and what persists. Do not require every possible state for a static screen.
+- For a consequential choice, contrast two different interaction plans, then state which user problem each solves, the evidence, and the trade-off. Avoid alternative designs that differ only in color. Distinguish technical completion from the person's understanding of the outcome.
+- After interruptions, check progress can be recovered. Say who owns state and whether Back, refresh, retry or reconnect should preserve it. Prevent repeated mutation from double-submit when relevant.
+
+**Example:** Showing “saved” is insufficient if the intended outcome is registration. Give draft and confirmed registration separate labels. Success requires displaying the right event and confirmed state after reload. If registration fails, leave the draft intact and show how to retry. Compare a single view versus a dedicated registration page; the latter may make sense if it has independent prerequisites or multiple entries.
