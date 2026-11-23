@@ -1,0 +1,8 @@
+{
+  "mode": "change",
+  "title": "Ein Schritt kommt hinzu.",
+  "caption": "Vor dem Versand braucht der Entwurf eine menschliche Freigabe.",
+  "start": "Entwurf",
+  "end": "Versand",
+  "insert": "Menschliche Freigabe nötig"
+}

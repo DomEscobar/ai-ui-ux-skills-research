@@ -1,0 +1,9 @@
+{
+  "mode": "handoff",
+  "title": "Wer ist jetzt am Zug?",
+  "caption": "Der Mensch hat den Entwurf zur Prüfung. Eine Zustimmung steht noch aus.",
+  "sender": "Agentischer PO",
+  "receiver": "Mensch",
+  "object": "Entwurf",
+  "end_state": "Prüft · Freigabe offen"
+}

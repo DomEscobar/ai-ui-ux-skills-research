@@ -1,0 +1,17 @@
+{
+  "mode": "branch",
+  "title": "Zurück statt weiter.",
+  "caption": "Beispiel: Der Mensch verlangt eine Änderung. Es wurde nichts versendet.",
+  "start": "Prüfung",
+  "routes": [
+    {
+      "when": "Zustimmung",
+      "end": "Versand möglich"
+    },
+    {
+      "when": "Änderungswunsch",
+      "end": "Überarbeiten"
+    }
+  ],
+  "selected": 1
+}

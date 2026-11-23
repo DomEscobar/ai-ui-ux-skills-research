@@ -18,6 +18,12 @@ Für Website-Art-Direction ist Taste nützlich, aber kein Ersatz für Produkt-UX
 
 **Status:** eigener Skill-Entwurf, kein Wirksamkeitsnachweis. Drittanbieter-Skills sind verlinkt und nicht kopiert. Keine Fremdskripte erforderlich.
 
+## Animierte Diagramme
+
+[`ani-diagrams` v1.0.0](skills/ani-diagrams/SKILL.md) zeigt **Korrekturen**, **Entscheidungswege** und **Übergaben**. Aus einer JSON-Vorlage entstehen ein animiertes SVG und ein lesbares Standbild; optional lässt sich ein MP4 exportieren.
+
+Beispielclips: [Korrektur](examples/ani-diagrams/change.mp4) · [Entscheidungsweiche](examples/ani-diagrams/branch.mp4) · [Objektübergabe](examples/ani-diagrams/handoff.mp4).
+
 ## Kurz installieren (Hermes)
 
 Den vollständigen Ordner `skills/product-ux-bundle` in das `skills/`-Verzeichnis des aktiven Hermes-Profils kopieren. Die drei lokalen Referenzen gehören dazu. Mit `hermes skills list` prüfen, dass `product-ux-bundle` erkannt wird. In einer neuen Sitzung kann der Skill explizit mit `hermes chat --skills product-ux-bundle` geladen werden. Es braucht keine Drittanbieter-Plugins oder Paketinstallationen.
